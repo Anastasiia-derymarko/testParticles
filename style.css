@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Campton-Light DEMO;
+  src: url(fonts/CamptonLight.otf); }
+@font-face {
+  font-family: Campton-Bold DEMO;
+  src: url(fonts/CamptonBold.otf); }
+body {
+  font-family: Campton-Light DEMO, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(0deg, #7559a6 0%, #65e0e0 100%) no-repeat; }
+
+#particle-canvas {
+  width: 100%;
+  height: 100%; }
+
+.bold {
+  font-family: Campton-Bold DEMO, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 2; }
+  .row h1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    line-height: 0.80; }
+    .row h1 p .rotate {
+      display: block;
+      transform: rotate(180deg);
+      float: left;
+      padding-right: 136px; }
+    .row h1 p .pad-r {
+      padding-right: 77px; }
+    .row h1 p .transformNone {
+      text-transform: none;
+      font-size: 0.50em; }
+  .row .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .row .text p {
+      margin: 20px auto;
+      color: #333399;
+      font-size: 1em; }
+    .row .text h2 {
+      text-align: left;
+      color: #aee1eb;
+      font-size: 1.7em; }
+
+footer ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px; }
+  footer ul li {
+    width: 30px;
+    padding: 0px 15px; }
+    footer ul li img {
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
