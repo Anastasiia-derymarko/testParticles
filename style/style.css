@@ -71,11 +71,20 @@ footer ul {
   list-style: none;
   position: absolute;
   bottom: 20px;
-  right: 20px; }
+  right: 20px;
+  z-index: 50; }
   footer ul li {
+    display: flex;
+    align-items: center;
     width: 30px;
-    padding: 0px 15px; }
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: 0px 10px;
+    padding: 7px; }
     footer ul li img {
       width: 100%; }
+    footer ul li:hover {
+      /*background: white;*/ }
 
 /*# sourceMappingURL=style.css.map */
